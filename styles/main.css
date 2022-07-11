@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container {
+    margin-top: 50px;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto auto
+}
+
+.individual-play-item {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.individual-play-item:hover {
+    background: url("https://images2.fanpop.com/image/photos/10200000/Duke-Face-duke-nukem-10258656-200-200.jpg");
+    background-repeat: no-repeat; 
+    background-size: auto 100%;
+    background-position: center;
+}
